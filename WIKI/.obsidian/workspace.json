@@ -21,10 +21,13 @@
             "id": "d41f89144868e0ef",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "bases",
+              "state": {
+                "file": "未命名 2.base",
+                "viewName": "表格"
+              },
+              "icon": "lucide-table",
+              "title": "未命名 2"
             }
           }
         ],
@@ -60,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "TABLE tags, status FROM \"entities\" WHERE contains(tags, \"book\")",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +84,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -190,13 +194,14 @@
       "bases:新建数据库": false
     }
   },
-  "active": "d41f89144868e0ef",
+  "active": "e8100fb4a721c0e3",
   "lastOpenFiles": [
     "未命名 1.base",
-    "未命名",
+    "未命名 2.base",
     "未命名.base",
+    "欢迎.md",
+    "未命名",
     "2026-07-07.md",
-    "未命名.canvas",
-    "欢迎.md"
+    "未命名.canvas"
   ]
 }
