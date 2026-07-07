@@ -1,0 +1,15 @@
+﻿# Git ignore for wiki knowledge base
+# OS files
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Obsidian workspace cache (if any)
+.obsidian/workspace.json
+.obsidian/workspace
+
+# Environment / secrets (never commit these)
+.env
+*.env.local
